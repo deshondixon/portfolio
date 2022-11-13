@@ -46,7 +46,6 @@ class Footer extends Component {
               >
                 <span
                   className="iconify language-icon"
-                  data-icon=""
                   data-inline="false"
                   id={window.$secondaryLanguageIconId}
                 ></span>
