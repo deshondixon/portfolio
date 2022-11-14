@@ -87,6 +87,23 @@
     ],
     "experience": [
       {
+        "company": "United States Army",
+        "title": "91B Wheeled Vehicle Mechanic",
+        "years": "11/22/2016 - 11/27/2019",
+        "mainTech": [
+          "11/22/2016 - 11/27/2019"
+        ],
+        "technologies": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
         "company": "Code Fellows",
         "title": "Software Developer",
         "years": "10.2022 - present",

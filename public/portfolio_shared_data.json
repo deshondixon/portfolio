@@ -34,8 +34,8 @@
           "level": "80"
         },
         {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
+          "name": "Django",
+          "class": "devicon-django-plain",
           "level": "90"
         },
         {
@@ -44,8 +44,8 @@
           "level": "70"
         },
         {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
+          "name": "Python",
+          "class": "devicon-python-plain",
           "level": "85"
         }
       ]
