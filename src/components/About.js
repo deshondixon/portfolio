@@ -1,13 +1,15 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
+import angularIcon from "@iconify/icons-logos/python";
 import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
+import vueIcon from "@iconify/icons-logos/javascript";
+import cssIcon from "@iconify/icons-logos/css-3";
+
 
 class About extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
-      var profilepic = "images/favorite one.jpeg" + this.props.sharedBasicInfo.image;
+      var profilePic = "images/" + this.props.sharedBasicInfo.image;
     }
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
@@ -27,11 +29,15 @@ class About extends Component {
                 <span style={{ cursor: "auto" }}>
                   <img
                     height="200px"
-                    src={profilepic}
+                    src={profilePic}
                     alt="Avatar placeholder"
                   />
                   <Icon
                     icon={angularIcon}
+                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                  />
+                   <Icon
+                    icon={cssIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
@@ -77,7 +83,7 @@ class About extends Component {
                     }}
                   >
                     <br />
-                    <span className="wave">{hello} </span>
+                    <span className="wave">{hello}  </span>
                     <br />
                     <br />
                     {about}
