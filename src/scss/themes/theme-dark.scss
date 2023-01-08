@@ -3,11 +3,11 @@ body[data-theme="dark"] {
    @import '/src/scss/dark-slider.scss';
 
    .slider-tab {
-      background-color: #8C8C8C;
+      background-color: #000000;
    }
 
    .title-styles {
-      color: white;
+      color: rgb(7, 7, 7);
    }
 
    .header-icon {
@@ -29,13 +29,13 @@ body[data-theme="dark"] {
 
    .project-date {
       background-color: #918e97;
-      color: white;
+      color: rgb(0, 0, 0);
    }
 
    header {
       background-color: #494949;
       h1 {
-         color: white;
+         color: rgb(0, 0, 0);
       }
    }
 
