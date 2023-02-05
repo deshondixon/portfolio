@@ -38,7 +38,7 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background: no-repeat fixed center linear-gradient(rgb(0, 0, 0), rgb(2, 150, 255));
+  background: linear-gradient(90deg, #ee8f5c, #f1a4b5, #91d587);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -233,7 +233,7 @@ header h1 {
 
 #resume {
 	background-size: cover;
-	background: no-repeat fixed center linear-gradient(rgb(0, 0, 0), rgb(2, 150, 255));
+  background: linear-gradient(90deg, #ee8f5c, #f1a4b5, #91d587);
 }
 
 .experience-icon {
@@ -317,7 +317,7 @@ header h1 {
 	top: 0;
 	margin: 0;
 	padding-right: 24px;
-	background: #313131;
+  background: linear-gradient(90deg, #ee8f5c, #f1a4b5, #91d587);
 	display: inline-block;
 	height: 42px;
 	line-height: 42px;
@@ -356,7 +356,7 @@ header h1 {
 
 #portfolio {
 	background-size: cover;
-	background: no-repeat fixed center linear-gradient(rgb(0, 0, 0), rgb(2, 150, 255));
+  background: linear-gradient(90deg, #ee8f5c, #f1a4b5, #91d587);
 	padding-bottom: 5%;
 	
 }
@@ -393,7 +393,7 @@ header h1 {
 }
 
 #skills {
-	background: no-repeat fixed center linear-gradient(rgb(0, 0, 0), rgb(2, 150, 255));
+  background: linear-gradient(90deg, #ee8f5c, #f1a4b5, #91d587);
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
