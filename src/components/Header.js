@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Nav from 'react-bootstrap/Nav'
 import { LinkContainer } from "react-router-bootstrap";
+import Tilt from 'react-parallax-tilt';
 
 class Header extends Component {
   titles = [];
@@ -51,7 +52,11 @@ class Header extends Component {
         <div className="row aligner" style={{height: '100%'}}>
           <div className="col-md-12">
             <div>
-              <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
+            <Tilt tiltMaxAngleX={10}
+            tiltMaxAngleY={10}
+            perspective={800}>
+            <img className="glassCard" height="200px" src="images/profile_photo.jpeg" alt="Deshon" />
+            </Tilt>
               <br/>
               <h1 className="mb-0">
                 {name}

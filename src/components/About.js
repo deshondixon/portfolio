@@ -4,6 +4,7 @@ import angularIcon from "@iconify/icons-logos/python";
 import reactIcon from "@iconify/icons-logos/react";
 import vueIcon from "@iconify/icons-logos/javascript";
 import cssIcon from "@iconify/icons-logos/css-3";
+import Tilt from 'react-parallax-tilt';
 
 
 class About extends Component {
@@ -27,11 +28,16 @@ class About extends Component {
             <div className="col-md-4 mb-5 center">
               <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
+                  <Tilt tiltMaxAngleX={10}
+                  tiltMaxAngleY={10}
+                  perspective={800}>
                   <img
+                    className="glassAbout"
                     height="200px"
                     src={profilePic}
                     alt="Avatar placeholder"
                   />
+                  </Tilt>
                   <Icon
                     icon={angularIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
