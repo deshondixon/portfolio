@@ -11,15 +11,18 @@
     },
     "projects": [
       {
-        "title": "Snakes Cafe",
+        "title": "Job Hunter",
         "startDate": "2023",
-        "description": "I recently created a command line utility called Snakes Cafe, which is designed to mimic the functionality of a point of sale restaurant system. I used my understanding of Python and various tools to build this utility, which allows users to place orders and view menus. The process of creating Snakes Cafe was an exciting and challenging experience for me. I had to consider various factors such as user experience and efficiency while designing and building the system. I also had to ensure that the system was user-friendly and easy to navigate. Overall, Snakes Cafe is a useful tool for anyone looking to manage a restaurant or food service business. It helps streamline the process of taking orders, making it easier for customers to enjoy their dining experience. I am proud of the work I put into creating this utility, and I hope it will be a valuable resource for others in the industry.",
+        "description": "An automated job application tool that uses web scraping to gather job listings from various job websites, uses regex to extract relevant information such as job title, company, and application link, and then uses remote APIs to gather information about the companies and the application process. Built with Python, Rich Library, Cloud Scraper library, Scraping Bee API, Requests, Pyfiglet, Beautifulsoup, Dotenv, Playwright, PyTest",
         "images": [
-          "images/portfolio/photography/50.png",
-          "images/portfolio/photography/51.png",
-          "images/portfolio/photography/52.png"
+          "images/portfolio/adventure/100.png",
+          "images/portfolio/adventure/101.png",
+          "images/portfolio/adventure/102.png",
+          "images/portfolio/adventure/103.png",
+          "images/portfolio/adventure/104.png",
+          "images/portfolio/adventure/105.png"
         ],
-        "url": "https://github.com/deshondixon/snakes-cafe",
+        "url": "https://github.com/CodingAcademics/JobHunter",
         "technologies": [
           {
             "class": "devicon-python-plain",
@@ -56,19 +59,28 @@
         ]
       },
       {
-        "title": "Ten-Thousand",
-        "startDate": "2023",
-        "description": "Ten-thousand is a fun and exciting dice game that I recently developed using Python programming language. Inspired by the popular game Farkle, Ten-thousand is a thrilling way to pass the time and challenge your friends. The game is played through the command line, making it easy to play on any device with a terminal. Players take turns rolling six dice, trying to score as many points as possible by rolling certain combinations. The goal is to reach a total of 10,000 points before your opponents. Developing Ten-thousand was a fun and rewarding experience for me. I enjoyed designing the game mechanics and implementing them in Python. The process required a lot of trial and error, but it was worth it to see the final product come to life. I hope that Ten-thousand brings as much joy and entertainment to others as it did for me while creating it. Give it a try and see if you have what it takes to be the ultimate Ten-thousand champion!",
+        "title": "Gallery of Horns",
+        "startDate": "2022",
+        "description": "User can view gallery of horned animals as well as 🖤 their favorite ones. There is also a drop down menu that allows the user to search by the amount of horns an animal has to narrow down their search. First, I decided to use React as the framework for my project because of its versatility and ability to efficiently render components. I also used JavaScript and CSS to add interactivity and styling to the project. Next, I began by setting up the basic structure of the app and creating the components that would be necessary, such as the gallery and the drop down menu. I also gathered a list of horned animals and their respective images and information that I wanted to include in the gallery. Once the basic structure was in place, I began implementing the functionality for the drop down menu. This involved adding the search functionality and handling the user's input to filter the gallery accordingly. Next, I focused on styling the app to make it visually appealing and easy to navigate. This involved adding custom CSS styles and ensuring that the layout was responsive and looked good on different devices. Finally, I tested the app thoroughly to ensure that it was functioning correctly and made any necessary adjustments. Once I was satisfied with the result, I deployed the app and made it available for users to view and interact with via netlify.",
         "images": [
-          "images/portfolio/photography/40.png",
-          "images/portfolio/photography/41.png",
-          "images/portfolio/photography/42.png"
+          "images/portfolio/photography/15.png",
+          "images/portfolio/photography/16.png",
+          "images/portfolio/photography/17.png",
+          "images/portfolio/photography/18.png"
         ],
-        "url": "https://github.com/deshondixon/ten-thousand",
+        "url": "https://galleryofhornsdd.netlify.app",
         "technologies": [
           {
-            "class": "devicon-python-plain",
-            "name": "Python"
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+          "class": "devicon-css3-plain",
+          "name": "CSS 3"
           }
         ]
       },
@@ -97,52 +109,36 @@
         ]
       },
       {
-        "title": "Gallery of Horns",
-        "startDate": "2022",
-        "description": "User can view gallery of horned animals as well as 🖤 their favorite ones. There is also a drop down menu that allows the user to search by the amount of horns an animal has to narrow down their search. First, I decided to use React as the framework for my project because of its versatility and ability to efficiently render components. I also used JavaScript and CSS to add interactivity and styling to the project. Next, I began by setting up the basic structure of the app and creating the components that would be necessary, such as the gallery and the drop down menu. I also gathered a list of horned animals and their respective images and information that I wanted to include in the gallery. Once the basic structure was in place, I began implementing the functionality for the drop down menu. This involved adding the search functionality and handling the user's input to filter the gallery accordingly. Next, I focused on styling the app to make it visually appealing and easy to navigate. This involved adding custom CSS styles and ensuring that the layout was responsive and looked good on different devices. Finally, I tested the app thoroughly to ensure that it was functioning correctly and made any necessary adjustments. Once I was satisfied with the result, I deployed the app and made it available for users to view and interact with via netlify.",
+        "title": "Snakes Cafe",
+        "startDate": "2023",
+        "description": "I recently created a command line utility called Snakes Cafe, which is designed to mimic the functionality of a point of sale restaurant system. I used my understanding of Python and various tools to build this utility, which allows users to place orders and view menus. The process of creating Snakes Cafe was an exciting and challenging experience for me. I had to consider various factors such as user experience and efficiency while designing and building the system. I also had to ensure that the system was user-friendly and easy to navigate. Overall, Snakes Cafe is a useful tool for anyone looking to manage a restaurant or food service business. It helps streamline the process of taking orders, making it easier for customers to enjoy their dining experience. I am proud of the work I put into creating this utility, and I hope it will be a valuable resource for others in the industry.",
         "images": [
-          "images/portfolio/photography/15.png",
-          "images/portfolio/photography/16.png",
-          "images/portfolio/photography/17.png",
-          "images/portfolio/photography/18.png"
+          "images/portfolio/photography/50.png",
+          "images/portfolio/photography/51.png",
+          "images/portfolio/photography/52.png"
         ],
-        "url": "https://galleryofhornsdd.netlify.app",
+        "url": "https://github.com/deshondixon/snakes-cafe",
         "technologies": [
           {
-            "class": "devicon-react-plain",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          },
-          {
-          "class": "devicon-css3-plain",
-          "name": "CSS 3"
+            "class": "devicon-python-plain",
+            "name": "Python"
           }
         ]
       },
       {
-        "title": "Salmon Cookies",
-        "startDate": "2022",
-        "description": "Salmon Cookies is a proof of concept application that I built to help a fictional bakery manage its supplies inventory and baking schedule. The main function of the app is to calculate the number of cookies that each location must make every day. I built Salmon Cookies using a combination of React, JavaScript, and CSS. React is a JavaScript library for building user interfaces, which I used to create the front-end of the app. JavaScript is a programming language that I used to implement the logic and functionality of the app, such as the algorithm for calculating the number of cookies that each location needs to bake. CSS is a stylesheets language that I used to apply styling and design to the app, making it visually appealing and easy to use. ",
+        "title": "Ten-Thousand",
+        "startDate": "2023",
+        "description": "Ten-thousand is a fun and exciting dice game that I recently developed using Python programming language. Inspired by the popular game Farkle, Ten-thousand is a thrilling way to pass the time and challenge your friends. The game is played through the command line, making it easy to play on any device with a terminal. Players take turns rolling six dice, trying to score as many points as possible by rolling certain combinations. The goal is to reach a total of 10,000 points before your opponents. Developing Ten-thousand was a fun and rewarding experience for me. I enjoyed designing the game mechanics and implementing them in Python. The process required a lot of trial and error, but it was worth it to see the final product come to life. I hope that Ten-thousand brings as much joy and entertainment to others as it did for me while creating it. Give it a try and see if you have what it takes to be the ultimate Ten-thousand champion!",
         "images": [
-          "images/portfolio/adventure/20.png",
-          "images/portfolio/adventure/21.png"
+          "images/portfolio/photography/40.png",
+          "images/portfolio/photography/41.png",
+          "images/portfolio/photography/42.png"
         ],
-        "url": "https://deshondixon.github.io/cookie-stand/",
+        "url": "https://github.com/deshondixon/ten-thousand",
         "technologies": [
           {
-            "class": "devicon-html5-plain",
-            "name": "HTML 5"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          },
-          {
-          "class": "devicon-css3-plain",
-          "name": "CSS 3"
+            "class": "devicon-python-plain",
+            "name": "Python"
           }
         ]
       }
