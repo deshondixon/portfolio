@@ -55,7 +55,7 @@ class Header extends Component {
             <Tilt tiltMaxAngleX={10}
             tiltMaxAngleY={10}
             perspective={800}>
-            <img className="glassCard" height="200px" src="images/profile_photo.jpeg" alt="Deshon" />
+            <img className="glassCard" src="images/circle.jpeg" alt="Deshon" />
             </Tilt>
               <br/>
               <h1 className="mb-0">

@@ -33,7 +33,7 @@ class About extends Component {
                   perspective={800}>
                   <img
                     className="glassAbout"
-                    height="200px"
+                    height="190px"
                     src={profilePic}
                     alt="Avatar placeholder"
                   />
